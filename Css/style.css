@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+
+    height: 72px;
+    border-radius: 120px;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabecalho-menu-item{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    
+
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-imagem{
+    height: 500px;
+    border-radius: 30px;
+}
+
+.principal-escrito{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    gap: 32px;
+
+}
+
+.principal-titulo{
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.principal-subtitulo{
+    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+
+}
+
+.principal-button{
+    background-color: #ECD6C4;
+    width: 150px;
+    height: 46px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    
+
+
+}
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+}   
+
+.titulo-secundario{
+    border-top: 0.4px solid #FFF2E7;
+    font-size: 30px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+}
+
+.secundario-paragrafo{
+    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+}
+
+
+
+.rodape{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.4px solid #FFF2E7;
+    
+}
+.rodape-imagem{
+   
+    border-radius: 20px;
+    height: 150px;
+  
+    
+}
